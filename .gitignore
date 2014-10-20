@@ -1,0 +1,18 @@
+#IDE conf files
+.settings
+build
+target
+bin
+.project
+.classpath
+.pydevproject
+.externalToolBuilders
+.idea
+*.iml
+*.ipr
+*.iws
+
+*.o
+*.so
+
+git.properties
