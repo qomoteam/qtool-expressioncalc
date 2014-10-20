@@ -10,7 +10,6 @@
 			<groupId>cbb.qomo</groupId>
 			<artifactId>qomo-common</artifactId>
 			<version>1.0.1</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
