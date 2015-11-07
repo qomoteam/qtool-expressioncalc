@@ -1,6 +1,6 @@
 <tools>
 	<tool id="expressioncalc" name="Expression calculation" category="Differential expression analysis"  contributors='Qomo team'>
-		<command>#{HADOOP_BIN} jar target/count-exons-tool-0.0.1-SNAPSHOT-jar-with-dependencies.jar qomo.countexons.GetGeneExp #{ref} #{input} #{output}</command>
+		<command>#{HADOOP_BIN} jar count-exons-tool-0.0.1-SNAPSHOT-jar-with-dependencies.jar qomo.countexons.GetGeneExp #{ref} #{input} #{output}</command>
 		<params>
 			<input format="csv" name="ref" label="Reference" />
 			<input format="bed" name="input" label="Input" />
